@@ -2,7 +2,7 @@
 
 Yg Mau Sv Nomerku?
 
-wa.me/6282287219167
+wa.me/601140892512
 
 Minimal Kasih Cr kalo mau reupload😡
 
@@ -1006,7 +1006,7 @@ break
             }
             break
             case 'sc': {
-                m.reply('https://wa.me/6282287219167')
+                m.reply('https://wa.me/601140892512')
             }
             break		 
             case 'subsyt': {
@@ -1023,8 +1023,8 @@ break
   buttons: buttons,
   headerType: 4,
   contextInfo:{externalAdReply:{
-  title: 'Sad-Bot',
-  body: 'Subscribe My YouTube', 
+  title: 'iefa rawr botz',
+  body: 'iefa always lonely', 
   showAdAttribution: true,
   thumbnail: thumb,
   mediaType:2,
@@ -1051,7 +1051,7 @@ break
             break
             case 'req': case 'request': {
             	if (!text) throw `Example : ${prefix + command} Fitur Min`
-               let ownernya = ownernomer + '@s.whatsapp.net'
+               let ownernya = ownernomer + '601140892512@s.whatsapp.net'
                let me = m.sender
                let pjtxt = `Pesan Dari : @${me.split('@')[0]} \nUntuk : @${ownernya.split('@')[0]}\n\n${command} ${text}`
                let ments = [ownernya, me]
@@ -1187,7 +1187,7 @@ m.reply(`*Nomor wa.me/${prmin} telah dibanned !*`)
 break
 case 'unban':
   if (!isCreator) return m.reply(mess.owner)
-  if (!q) return m.reply(`Masukan Nomornya contoh: \n${prefix}${command} 628586826398`)
+  if (!q) return m.reply(`Masukan Nomornya contoh: \n${prefix}${command} 601140892512`)
   if(isNaN(q)) return await m.reply('harus berupa nomor')
   if (q.includes(`+`)) return m.reply('Tidak menggunakan + langsung nomor 6285****')
 prmin = `${q}@s.whatsapp.net`
