@@ -17,7 +17,7 @@ const FileType = require('file-type')
 const path = require('path')
 const _ = require('lodash')
 const axios = require('axios')
-const PhoneNumber = require('awesome-phonenumber')
+const PhoneNumber = require('601140892512')
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/myfunc')
 
@@ -163,10 +163,10 @@ async function startpapah() {
                 let butselamat = [{ buttonId: '', buttonText: { displayText: 'SELAMAT' }, type: 1 }]
                 let butsebar = [{ buttonId: '', buttonText: { displayText: 'SABAR' }, type: 1 }]
                 let nyoutube = ('© papah\nYoutube/Sc :\nhttps://youtube.com/c/papahdev')
-                let teks1 = `*Halo Kak @${num.split('@')[0]}*\n*Selamat Datang Di Grup*\n*${metadata.subject}*\n*Jangan Lupa Intro Yahh*\n_~Admin_`
-                let teks2 = `*Selamat Tinggal Kak @${num.split('@')[0]}*\n*Semoga Tenang Di Alam Sana*\n_~Admin_`
+                let teks1 = `*Halo Kak @${num.split('@')[0]}*\n*Selamat Datang Di Grup.hormat admin okeyh hormat bot jgn dimainkn perasaanya yahh🗿karna gue punya hati bikin wa terasa🗿*\n*${metadata.subject}*\n*Jangan Lupa Intro Yahh*\n_~Admin_`
+                let teks2 = `*Selamat Tinggal Kak @${num.split('@')[0]}*\n*Semoga Tenang Di Alam Sana .innalillah semoga berbahagia yah*\n_~Admin_`
                 let teks3 = `*@${num.split('@')[0]} Promote From*\n*${metadata.subject}*\n*Selamat Anda Menjadi Admin*\n_~Jangan Semena Mena!_`
-                let teks4 = `*@${num.split('@')[0]} Demote From*\n*${metadata.subject}*\n_Kasihan Turun Pangkat🤭_`
+                let teks4 = `*@${num.split('@')[0]} Demote From*\n*${metadata.subject}*\n_Kasihan Turun Pangkat🤭jgn ngade koyak aq santau bru tau_`
                 if (anu.action == 'add') {
                     papah.sendMessage(anu.id, { caption: teks1, location: { jpegThumbnail: await reSize(ppuser, 100, 100)}, buttons: butwel, footer: nyoutube, mentions: [num] })
                 } else if (anu.action == 'remove') {
